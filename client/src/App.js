@@ -23,9 +23,9 @@ function App() {
       <Route exact path='/' component={Home}/>
       <Route exact path='/login' component={Login}/>
       <Route exact path='/register' component={Register}/>
-      <ProtectedRoute exact path='/users' component={Users}/>
-      <ProtectedRoute exact path='/things' component={Things}/>
-      <ProtectedRoute exact path='/user' component={User}/>
+      {/* <ProtectedRoute exact path='/users' component={Users}/> */}
+      {/* <ProtectedRoute exact path='/things' component={Things}/> */}
+      {/* <ProtectedRoute exact path='/user' component={User}/> */}
       <Route component={NoMatch} />
       </Switch>
     </Container>
